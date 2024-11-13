@@ -27,8 +27,10 @@ void setup()
   pinMode(relay2, OUTPUT);
   pinMode(relay3, OUTPUT);
   pinMode(relay4, OUTPUT);
-
-  // Initialize motors as stopped
+  pinMode(relay5, OUTPUT);
+  pinMode(relay6, OUTPUT);
+  pinMode(relay7, OUTPUT);
+  pinMode(relay8, OUTPUT);
   stopMotors();
 }
 
